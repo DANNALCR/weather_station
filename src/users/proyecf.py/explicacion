@@ -1,0 +1,56 @@
+
+Patrón Observer:
+
+Single Responsibility Principle (SRP):
+Observer y Subject tienen la responsabilidad de manejar la lógica de observación y notificación, mientras que las clases concretas (EmailSubscriber, SMSSubscriber y NewsService) tienen responsabilidades únicas relacionadas con sus respectivas funcionalidades. Esto asegura que cada clase tenga una sola razón para cambiar.
+Open/Closed Principle (OCP):
+La implementación permite la extensión sin modificar el código existente. Puedes agregar nuevos tipos de observadores sin cambiar las clases existentes. Por ejemplo, podrías agregar un observador para enviar notificaciones a una aplicación móvil sin alterar las clases existentes.
+Liskov Substitution Principle (LSP):
+No se aplica directamente, ya que no hay herencia utilizada en este ejemplo.
+Interface Segregation Principle (ISP):
+Las clases Observer y Subject proporcionan interfaces específicas que los observadores y los sujetos deben seguir, lo que garantiza que solo implementen los métodos necesarios para su funcionalidad. Esto evita que las clases implementen métodos que no necesitan.
+
+
+Patrón State:
+
+Single Responsibility Principle (SRP):
+State, GreenState, YellowState, y RedState tienen la responsabilidad de definir y gestionar estados y transiciones de un objeto. TrafficLight maneja la gestión de estados y la transición entre ellos. Cada clase tiene una sola responsabilidad.
+Open/Closed Principle (OCP):
+Es posible agregar nuevos estados al sistema sin modificar el código existente, ya que cada estado es una clase independiente. Por ejemplo, podrías agregar un estado intermitente entre amarillo y rojo sin cambiar el código existente.
+Liskov Substitution Principle (LSP):
+No se aplica directamente, ya que no hay herencia utilizada en este ejemplo.
+Interface Segregation Principle (ISP):
+Cada clase proporciona una interfaz específica para su propósito. State define la interfaz común para todos los estados y TrafficLight proporciona una interfaz para cambiar el estado y obtener información sobre el estado actual.
+
+
+Patrón Observer:
+
+Single Responsibility Principle (SRP): Cada clase tiene una única responsabilidad: Observer y Subject manejan la lógica de observación y notificación, mientras que las clases concretas (EmailSubscriber, SMSSubscriber y NewsService) tienen responsabilidades únicas relacionadas con sus respectivas funcionalidades.
+Open/Closed Principle (OCP): La implementación permite la extensión sin modificar el código existente. Puedes agregar nuevos tipos de observadores sin cambiar las clases existentes.
+Liskov Substitution Principle (LSP): No aplica directamente, ya que no hay herencia utilizada en este ejemplo.
+Interface Segregation Principle (ISP): Las clases Observer y Subject proporcionan interfaces específicas que los observadores y los sujetos deben seguir, lo que garantiza que solo implementen los métodos necesarios para su funcionalidad.
+
+Patrón State:
+
+SRP: Cada clase tiene una sola responsabilidad: State define la interfaz común para todos los estados,
+las clases concretas (GreenState, YellowState, RedState) implementan comportamientos específicos,
+y TrafficLight maneja la gestión de estados y la transición entre ellos.
+OCP: Es posible agregar nuevos estados sin modificar el código existente,
+ ya que cada estado es una clase independiente.
+LSP: No hay herencia utilizada directamente en este ejemplo.
+ISP: No aplica directamente, pero cada clase tiene una interfaz específica que cumple con su propósito.
+
+Patrón Composite:
+
+SRP: Component define la interfaz común para todos los componentes, y las clases concretas (Person y Group)
+implementan comportamientos específicos. Cada clase tiene una sola responsabilidad.
+OCP: La estructura permite agregar nuevas hojas (por ejemplo, diferentes tipos de personas)
+ o grupos sin modificar las clases existentes.
+LSP: No hay herencia utilizada directamente en este ejemplo.
+ISP: Cada clase proporciona una interfaz específica para su propósito.
+En resumen, todos los ejemplos proporcionados cumplen con los principios SOLID
+en la medida en que aplican a sus respectivos contextos. Además, todos los ejemplos están implementados
+utilizando programación orientada a objetos en Python.
+
+
+
