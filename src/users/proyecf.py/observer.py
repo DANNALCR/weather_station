@@ -59,5 +59,4 @@ if __name__ == "__main__":
 #EmailSubscriber y SMSSubscriber son clases que implementan el comportamiento específico de los observadores.
 #NewsService es el sujeto concreto que publica noticias. Cuando se publican nuevas noticias, notificaautomáticamente a todos sus observadores.
 #Este ejemplo muestra cómo el patrón Observer se puede aplicar a un servicio de noticias por correo electrónico,
-#
-donde los usuarios se suscriben para recibir actualizaciones automáticas cuando se publican nuevas noticias.//
+# donde los usuarios se suscriben para recibir actualizaciones automáticas cuando se publican nuevas noticias.//
