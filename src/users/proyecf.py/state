@@ -43,10 +43,10 @@ if __name__ == "__main__":
 
 
 
-//State define una interfaz para todos los estados posibles del semáforo.
-GreenState, YellowState y RedState son clases que implementan comportamientos específicos para cada estado.
-TrafficLight es el contexto que contiene un estado interno y proporciona una interfaz para cambiar ese estado.
-El cliente crea una instancia de TrafficLight y solicita el estado actual. Luego, cambia el estado del semáforo
-y solicita el nuevo estado.
-Este ejemplo muestra cómo el patrón State se puede aplicar para modelar el comportamiento de un semáforo de tráfico,
-donde el semáforo cambia su estado en respuesta a eventos externos.//
+#State define una interfaz para todos los estados posibles del semáforo.
+#GreenState, YellowState y RedState son clases que implementan comportamientos específicos para cada estado.
+#TrafficLight es el contexto que contiene un estado interno y proporciona una interfaz para cambiar ese estado.
+#El cliente crea una instancia de TrafficLight y solicita el estado actual. Luego, cambia el estado del semáforo
+#y solicita el nuevo estado.
+#Este ejemplo muestra cómo el patrón State se puede aplicar para modelar el comportamiento de un semáforo de tráfico,
+#donde el semáforo cambia su estado en respuesta a eventos externos.//

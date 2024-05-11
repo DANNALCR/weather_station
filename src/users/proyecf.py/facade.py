@@ -34,8 +34,8 @@ if __name__ == "__main__":
 
 
 
-//Subsystem1 y Subsystem2 son dos subsistemas con funcionalidades complejas.
-Facade proporciona una interfaz simple que utiliza estos subsistemas para realizar una serie de operaciones.
-El cliente interactúa solo con la fachada y no necesita conocer los detalles de implementación de los subsistemas.
-Este patrón es útil cuando tienes un sistema complejo y deseas proporcionar una interfaz simplificada para interactuar
-con él, ocultando la complejidad interna.//
+#Subsystem1 y Subsystem2 son dos subsistemas con funcionalidades complejas.
+#Facade proporciona una interfaz simple que utiliza estos subsistemas para realizar una serie de operaciones.
+#El cliente interactúa solo con la fachada y no necesita conocer los detalles de implementación de los subsistemas.
+#Este patrón es útil cuando tienes un sistema complejo y deseas proporcionar una interfaz simplificada para interactuar
+#con él, ocultando la complejidad interna.//

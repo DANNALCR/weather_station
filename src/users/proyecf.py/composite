@@ -59,12 +59,12 @@ if __name__ == "__main__":
 
 
 
-//Component define la interfaz común para todos los componentes, ya sean hojas individuales (en este caso, personas)
-o grupos que contienen más personas o grupos.
-Person representa una hoja individual en la estructura. En este caso, una persona que asiste al picnic.
-Group es el componente compuesto que puede contener tanto personas individuales como otros grupos.
-El cliente crea instancias de personas y grupos, y los organiza en una estructura jerárquica. Luego,
- muestra la estructura completa, que incluye tanto personas individuales como grupos anidados.
-Este ejemplo ilustra cómo el patrón Composite puede ser útil para modelar estructuras jerárquicas,
-como los participantes en un evento comunitario, donde hay grupos que contienen tanto a personas individuales
-como a otros grupos. //
+#Component define la interfaz común para todos los componentes, ya sean hojas individuales (en este caso, personas)
+#o grupos que contienen más personas o grupos.
+#Person representa una hoja individual en la estructura. En este caso, una persona que asiste al picnic.
+#Group es el componente compuesto que puede contener tanto personas individuales como otros grupos.
+#El cliente crea instancias de personas y grupos, y los organiza en una estructura jerárquica. Luego,
+ #muestra la estructura completa, que incluye tanto personas individuales como grupos anidados.
+#Este ejemplo ilustra cómo el patrón Composite puede ser útil para modelar estructuras jerárquicas,
+#como los participantes en un evento comunitario, donde hay grupos que contienen tanto a personas individuales
+#como a otros grupos. 

@@ -6,6 +6,7 @@ from database import get_db
 from models import User
 from repository import get_user
 from users.schemas import UserLogin
+from src.users.adapter import adapter
 
 router = APIRouter()
 
@@ -60,3 +61,7 @@ async def change_password(
     db.commit()
     db.refresh(user)
     return {"status": "success", "data": "Password changed successfully"}
+
+@router.post("/adapter")
+def relacion() -> None:
+    relacion
